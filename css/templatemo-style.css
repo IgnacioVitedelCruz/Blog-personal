@@ -431,15 +431,15 @@ header {
 }
 
 .Modern-Slider .item-1 .image {
-  background-image: url(../img/slide_1.jpg);
+  background-image: url(../img/fondo_1.jpg);
 }
 
 .Modern-Slider .item-2 .image {
-  background-image: url(../img/slide_2.jpg);
+  background-image: url(../img/fondo_3.jpg);
 }
 
 .Modern-Slider .item-3 .image {
-  background-image: url(../img/slide_3.jpg);
+  background-image: url(../img/fondo_2.jpg);
 }
 
 .Modern-Slider .PrevArrow:before{content:'\f104';}
@@ -564,7 +564,7 @@ header {
   color: #fff;
   text-align: center;
   text-transform: capitalize;
-  background-color: rgba(69,72,32, 0.9);
+  background: linear-gradient(to bottom,#EB5757 , #000000);
   display: inline-block;
   height: 44px;
   line-height: 44px;
@@ -593,9 +593,13 @@ header {
 #featured .item .text-content h4 {
   margin-top: 0px;
   margin-bottom: 5px;
+  font-family: "Homer Simpson UI";
   font-size: 21px;
   font-weight: 600;
-  color: #454820;
+  background: -webkit-linear-gradient(#6f0000,#200122);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: tomato;
   letter-spacing: 0.5px;
 }
 
@@ -603,12 +607,200 @@ header {
   display: inline-block;
   font-size: 15px;
   font-weight: 600;
-  color: #45489a;
+    font-family: cursive;
+  color: #000;
   letter-spacing: 0.5px;
   margin-bottom: 12.5px;
 }
+#featured .item .text-content p {
+    background: -webkit-linear-gradient(#414345,#232526);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: tomato;
+}
+/* SECUNDARIA */
+#featured .item .image .featured-button-1 a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  background: linear-gradient(to bottom, #1CB5E0, #000046);
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  width: 100%;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  transition: all 0.5s;
+  position: absolute;
+  z-index: 9;
+  bottom: -44px;
+  opacity: 0;
+}
 
+#featured .item:hover .featured-button-1 a {
+  bottom: 0;
+  opacity: 1;
+}
 
+#featured .item .text-content-1 {
+  padding-top: 20px;
+  background-color: #B5B8B1;
+  position: relative;
+  z-index: 10;
+}
+
+#featured .item .text-content-1 h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-family: "Homer Simpson UI";
+  font-size: 21px;
+  font-weight: 600;
+  background: -webkit-linear-gradient(#24243e,#302b63,#0f0c29);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: tomato;
+  letter-spacing: 0.5px;
+}
+
+#featured .item .text-content-1 span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+    font-family: cursive;
+  color: #000;
+  letter-spacing: 0.5px;
+  margin-bottom: 12.5px;
+}
+#featured .item .text-content-1 p {
+    background: -webkit-linear-gradient(#414345,#232526);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: tomato;
+}
+/* Preparatoria */
+#featured .item .image .featured-button-2 a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  background: linear-gradient(to bottom, #44A08D, #000000);
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  width: 100%;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  transition: all 0.5s;
+  position: absolute;
+  z-index: 9;
+  bottom: -44px;
+  opacity: 0;
+}
+
+#featured .item:hover .featured-button-2 a {
+  bottom: 0;
+  opacity: 1;
+}
+
+#featured .item .text-content-2 {
+  padding-top: 20px;
+  background-color: #B5B8B1;
+  position: relative;
+  z-index: 10;
+}
+
+#featured .item .text-content-2 h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-family: "Homer Simpson UI";
+  font-size: 21px;
+  font-weight: 600;
+  background: -webkit-linear-gradient( #000000,#093637);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: tomato;
+  letter-spacing: 0.5px;
+}
+
+#featured .item .text-content-2 span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+    font-family: cursive;
+  color: #000;
+  letter-spacing: 0.5px;
+  margin-bottom: 12.5px;
+}
+#featured .item .text-content-2 p {
+    background: -webkit-linear-gradient(#414345,#232526);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: tomato;
+}
+/* Universidad */
+#featured .item .image .featured-button-3 a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  background: linear-gradient(to bottom, #cbb4d4, #000000);
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  width: 100%;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  transition: all 0.5s;
+  position: absolute;
+  z-index: 9;
+  bottom: -44px;
+  opacity: 0;
+}
+
+#featured .item:hover .featured-button-3 a {
+  bottom: 0;
+  opacity: 1;
+}
+
+#featured .item .text-content-3 {
+  padding-top: 20px;
+  background-color: #B5B8B1;
+  position: relative;
+  z-index: 10;
+}
+
+#featured .item .text-content-3 h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-family: "Homer Simpson UI";
+  font-size: 21px;
+  font-weight: 600;
+  background: -webkit-linear-gradient(#2F0743,#41295a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: tomato;
+  letter-spacing: 0.5px;
+}
+
+#featured .item .text-content-3 span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+    font-family: cursive;
+  color: #000;
+  letter-spacing: 0.5px;
+  margin-bottom: 12.5px;
+}
+#featured .item .text-content-3 p {
+    background: -webkit-linear-gradient(#414345,#232526);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: tomato;
+}
 
 /* Projects Style */
 
@@ -772,6 +964,7 @@ header {
   bottom: 0;
   opacity: 1;
 }
+/* Hobbie 1 */
 #projects .item .text-content {
   padding-top: 20px;
   background-color: #B5B8B1;
@@ -779,21 +972,98 @@ header {
   z-index: 10;
 }
 
+
 #projects .item .text-content h4 {
   margin-top: 0px;
   margin-bottom: 5px;
   font-size: 21px;
   font-weight: 600;
-  color: #454820;
+  background: -webkit-linear-gradient(#237A57,#093028);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: tomato;
   letter-spacing: 0.5px;
 }
 #projects .item .text-content span {
   display: inline-block;
   font-size: 15px;
   font-weight: 600;
-  color: #7a7a7a;
+  font-family: cursive;
+  color: #000;
   letter-spacing: 0.5px;
   margin-bottom: 12.5px;
+}
+#projects .item .text-content p {
+    background: -webkit-linear-gradient(#414345,#232526);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: tomato;
+}
+/* Hobbie 2 */
+#projects .item .text-content-1 {
+  padding-top: 20px;
+  background-color: #B5B8B1;
+  position: relative;
+  z-index: 10;
+}
+#projects .item .text-content-1 h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 21px;
+  font-weight: 600;
+    background: -webkit-linear-gradient(#004e92,#000428);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: tomato;
+  letter-spacing: 0.5px;
+}
+#projects .item .text-content-1 span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: cursive;
+  color: #000;
+  letter-spacing: 0.5px;
+  margin-bottom: 12.5px;
+}
+#projects .item .text-content-1 p {
+    background: -webkit-linear-gradient(#414345,#232526);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: tomato;
+}
+/* Hobbie 3 */
+#projects .item .text-content-2 {
+  padding-top: 20px;
+  background-color: #B5B8B1;
+  position: relative;
+  z-index: 10;
+}
+#projects .item .text-content-2 h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 21px;
+  font-weight: 600;
+    background: -webkit-linear-gradient(#1F1C18,#8E0E00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: tomato;
+  letter-spacing: 0.5px;
+}
+#projects .item .text-content-2 span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: cursive;
+  color: #000;
+  letter-spacing: 0.5px;
+  margin-bottom: 12.5px;
+}
+#projects .item .text-content-2 p {
+    background: -webkit-linear-gradient(#414345,#232526);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: tomato;
 }
 
 
@@ -816,7 +1086,11 @@ header {
   display: block;
   margin: 0px;
 }
-
+#video .text-content h4 {
+  font-family: cursive;
+  display: block;
+  margin: 0px;
+}
 #video .section-heading p {
   position: relative;
   margin: 0px;
@@ -824,6 +1098,7 @@ header {
 
 #video .accent-button {
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .box-video{
@@ -997,6 +1272,7 @@ header {
 }
 
 #blog .item .text-content h4 {
+  font-family: cursive;
   padding-top: 7.5px;
   margin-top: 0px;
   margin-bottom: 5px;
@@ -1018,7 +1294,30 @@ header {
 #blog .item .text-content .accent-button {
   margin-top: 25px;
 }
+#blog .item .text-content .image .featured-button-3 a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: rgba(159,213,209);
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  width: 100%;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  transition: all 0.5s;
+  position: absolute;
+  z-index: 9;
+  bottom: -44px;
+  opacity: 0;
+}
 
+#blog .item:hover .featured-button-3 a {
+  bottom: 0;
+  opacity: 1;
+}
 
 
 
